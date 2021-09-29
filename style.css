@@ -22,6 +22,7 @@ h1{
     background-color: greenyellow;
     padding:2rem;
     width: calc(1% * var(--power,0));
+    transition: width 200ms;
 }
 .input{
     width: 50%;
